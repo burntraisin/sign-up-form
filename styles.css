@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Quicksand-medium";
+    src: url(fonts/Quicksand-Medium.ttf)
+}
+
+@font-face {
+    font-family: "Quicksand-semibold";
+    src: url(fonts/Quicksand-SemiBold.ttf)
+}
+
 body {
     background-image: url("/imgs/cafe-daan-evers.jpg");
     background-color: #F1DEC9;
@@ -7,6 +22,72 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+h1 {
+    font-family: "Pacifico", sans-serif;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 400;
+}
+
+button {
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 20px 91px;
+    background-color: transparent;
+    color: white;
+    font-family: "Quicksand-semibold", sans-serif;
+    font-size: 24px;
+}
+
+.hide-element {
+    border: 0;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+} 
+
+input {
+    width: 358px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: "Quicksand-semibold", sans-serif;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 30px;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    font-family: "Quicksand-medium", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -15px;
 }
 
 .container {

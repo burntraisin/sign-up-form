@@ -5,12 +5,17 @@
 
 @font-face {
     font-family: "Quicksand-medium";
-    src: url(fonts/Quicksand-Medium.ttf)
+    src: url(fonts/Quicksand-Medium.ttf);
 }
 
 @font-face {
     font-family: "Quicksand-semibold";
-    src: url(fonts/Quicksand-SemiBold.ttf)
+    src: url(fonts/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Quicksand-bold";
+    src: url(fonts/Quicksand-Bold.ttf);
 }
 
 body {
@@ -77,6 +82,10 @@ input::placeholder {
     opacity: 0.8;
 }
 
+.password-div {
+    margin-bottom: 65px;
+}
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -88,6 +97,7 @@ input::placeholder {
     font-size: 24px;
     text-align: center;
     margin-top: -15px;
+    margin-bottom: 45px;
 }
 
 .container {
@@ -103,4 +113,19 @@ input::placeholder {
 .right {
     background-color: rgba(0, 0, 0, 0.8);
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-family: "Quicksand-medium";
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Quicksand-bold";
 }

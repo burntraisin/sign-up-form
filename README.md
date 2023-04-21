@@ -1,5 +1,5 @@
 # sign-up-form
-This is a sign-up form for TOP's intermediate HTML and CSS Course.
+This is a simple sign-up form for TOP's intermediate HTML and CSS Course.
 
 # What I learned
 * background-image
@@ -27,3 +27,5 @@ This is a sign-up form for TOP's intermediate HTML and CSS Course.
         ```
 
 # Future todos
+* Responsiveness
+* User-friendliness

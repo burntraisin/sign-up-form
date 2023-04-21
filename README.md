@@ -1,5 +1,5 @@
 # sign-up-form
-This is a simple sign-up form for TOP's intermediate HTML and CSS Course. Here's the [live link]()!
+This is a simple sign-up form for TOP's intermediate HTML and CSS Course. Here's the [live link](https://burntraisin.github.io/sign-up-form/)!
 
 # What I learned
 * background-image

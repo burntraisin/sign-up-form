@@ -47,6 +47,12 @@ button {
     font-size: 24px;
 }
 
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
 p {
     font-family: "Quicksand-medium";
     font-size: 20px;

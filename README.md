@@ -16,7 +16,7 @@ This is a sign-up form for TOP's intermediate HTML and CSS Course.
         .hide-element {
             border: 0;
             clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-            clip; rect(1px, 1px, 1px, 1px);
+            clip: rect(1px, 1px, 1px, 1px);
             height: 1px;
             margin: -1px;
             overflow: hidden;

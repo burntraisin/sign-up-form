@@ -19,7 +19,7 @@
 }
 
 body {
-    background-image: url("/imgs/cafe-daan-evers.jpg");
+    background-image: url("imgs/cafe-daan-evers.jpg");
     background-color: #F1DEC9;
     background-size: cover;
     height: 100vh;

@@ -47,6 +47,18 @@ button {
     font-size: 24px;
 }
 
+p {
+    font-family: "Quicksand-medium";
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Quicksand-bold";
+}
+
 .hide-element {
     border: 0;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -108,6 +120,14 @@ input::placeholder {
     background-color: transparent;
     flex: 1;
     height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    padding-left: 30px;
+}
+
+.left a {
+    color: black;
 }
 
 .right {
@@ -116,16 +136,4 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-p {
-    font-family: "Quicksand-medium";
-    font-size: 20px;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-family: "Quicksand-bold";
 }
